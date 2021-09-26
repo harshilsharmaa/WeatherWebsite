@@ -45,6 +45,10 @@ body{
     color: aqua;
 }
 
+.pos-f-t a{
+    text-decoration: none;
+}
+
 .container{
     max-width: 1200px;
     width: 90%;
@@ -54,7 +58,7 @@ body{
 
 .navbar {
     display: flex;
-    height: 3rem;
+    /* height: 3rem; */
 }
 .navbar-dark .navbar-brand{
     color: aqua;
@@ -235,7 +239,7 @@ body{
  @media (min-width: 501px) and (max-width: 768px){ 
 
     html{
-        font-size: 100%;
+        font-size: 1rem;
     }
 
     .pos-f-t{
@@ -307,7 +311,7 @@ body{
 
 }
 
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 769px) and (max-width: 1200px){
     html{
         font-size: 1.8rem;
     }
@@ -359,11 +363,4 @@ body{
         font-size:100%;
     }
 
-    .pos-f-t{
-        display: block;
-    }
-
-    #navbar{
-        display: none;
-    }
 }

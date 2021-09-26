@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html{
+    font-size:62.5%;
+}
+
 body{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.//background/default.jpeg);
     background-position: center;
@@ -44,6 +48,10 @@ body{
     color: aqua;
 }
 
+.pos-f-t a{
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     /* justify-content: space-around; */
@@ -73,13 +81,13 @@ body{
 }
 
 
-.container{
-    /* border: 1px solid white; */
+/* .container{
+    border: 1px solid white;
     margin: 0 auto;
     max-width: 1200px;
     width: 90%;
     height: 90vh;
-}
+} */
 
 .main{
     /* border: 1px solid white; */
@@ -218,7 +226,7 @@ body{
 @media (max-width: 500px){
 
     html{
-        font-size: 50%;
+        font-size: 65%;
         /* font-size: ; */
     }
 
@@ -241,12 +249,20 @@ body{
     .box .form{
         width: 100%;
     }
+    .line{
+
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .social-links{
+        margin-top: 0.2px;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 768px){
 
     html{
-        font-size: 95%;
+        font-size: 1rem;
     }
 
     .pos-f-t{
@@ -271,7 +287,7 @@ body{
 @media (min-width: 769px) and (max-width: 1200px){
 
     html{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     .pos-f-t{
@@ -290,5 +306,11 @@ body{
     .box .contact-info,
     .box .form{
         width: 100%;
+    }
+}
+
+@media (min-width:1200px){
+    html{
+        font-size: 100%;
     }
 }
