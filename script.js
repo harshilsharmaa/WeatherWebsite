@@ -30,7 +30,7 @@ spinner.innerHTML = "";
 
 let key = 'b36a7ef3dfcf44dd82742347212109';
 let city = "delhi";
-let url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
+let url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
 
 let searchCity = document.getElementById('search');
 searchCity.addEventListener('click', function () {
@@ -40,7 +40,7 @@ city = document.getElementById('city').value;
 console.log(city);
 // for showing loading spinner
 showSpinner();
-url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
+url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
 showWeather();
 
 // if user enter another value than previous one should be removed
